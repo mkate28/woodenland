@@ -1,0 +1,409 @@
+@media (max-width: 1200px) {
+   .about {
+      padding: 80px 0;
+   }
+   .info__list {
+      justify-content: flex-start;
+   }
+   .info__item {
+      margin: 0 60px 40px 0;
+   }
+   .card {
+      width: 450px;
+   }
+   .card__image {
+      height: 408px;
+   }
+   .img-switch__image {
+      height: 373px;
+   }
+   .card__info-descr {
+      margin: 25px 0 35px;
+   }
+   .gallery__item {
+      min-height: 280px;
+   }
+}
+
+@media (max-width: 1100px) {
+   .about__wrapper {
+      align-items: center;
+   }
+   .about__image {
+      width: 45%;
+   }
+}
+
+@media (max-width: 992px) {
+   .menu__list {
+      display: none;
+   }
+   .menu__mobile {
+      row-gap: 40px;
+   }
+   .menu__list-item {
+      font-size: 24px;
+   }
+   .menu__burger {
+      display: block;
+   }
+   .hero__title {
+      font-size: 72px;
+   }
+   .about {
+      padding: 60px 0;
+   }
+   .about__title {
+      margin-bottom: 30px;
+   }
+   .about__image {
+      width: 48%;
+   }
+   .info__list {
+      flex-direction: column;
+      align-items: center;
+      gap: 65px;
+   }
+   .info__item {
+      margin: 0;
+   }
+   .cabins {
+      padding: 50px 0 20px;
+   }
+   .card {
+      width: 400px;
+   }
+   .card__image {
+      height: 395px;
+   }
+   .img-switch__image {
+      height: 355px;
+   }
+   .form {
+      padding: 45px;
+   }
+   .form__group {
+      margin-bottom: 20px;
+   }
+   .form__group:not(:last-of-type) {
+      margin-right: 10px;
+   }
+   .form__btn {
+      width: 100%;
+   }
+   .questions {
+      padding: 50px 0 20px;
+   }
+   .gallery__item {
+      min-height: 280px;
+   }
+   .gallery__wrapper {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+   }
+    .gallery__item {
+      min-height: 260px;
+   }
+   .gallery__item:nth-child(1) {
+      grid-column: span 1;
+   }
+   .gallery__item:nth-child(6), .gallery__item:nth-child(10)  {
+      grid-row: span 2;
+      grid-column: span 1;
+   }
+   .gallery__item:nth-child(8), .gallery__item:nth-child(9) {
+      grid-column: span 1;
+   }
+   .contacts__wrapper {
+      top: calc(200px - 150px);
+      width: 340px;
+      height: 300px;
+      padding: 25px;
+      font-size: 14px;
+   }
+   .map {
+      height: 400px;
+   }
+}
+
+@media (max-width: 882px) {
+   .card {
+      width: 350px;
+   }
+   .card__image {
+      height: 365px;
+   }
+   .img-switch__image {
+      height: 325px;
+   }
+   .card__header {
+      margin-bottom: 16px;
+   }
+   .card__title {
+      font-size: 18px;
+   }
+   .card__price {
+      font-size: 16px;
+   }
+   .card__info {
+      font-size: 14px;
+   }
+   .card__info-descr {
+      margin: 20px 0 30px;
+   }
+   .card__buttons-item {
+      padding: 10px 20px;
+      font-size: 14px;
+   }
+   .modal__close {
+      top: -32px;
+      right: 0;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   .about__descr {
+      margin-bottom: 22px;
+   }
+   .select {
+      width: 200px;
+   }
+}
+
+@media (max-width: 768px) {
+   .title {
+      font-size: 36px;
+   }
+   .hero__title {
+      max-width: 550px;
+      font-size: 60px;
+   }
+   .hero__description {
+      max-width: 250px;
+      margin-bottom: 60px;
+      font-size: 16px;
+   }
+   .hero__btn {
+      width: 180px;
+      padding: 12px;
+      font-size: 16px;
+   }
+   .about__wrapper {
+      flex-direction: column;
+   }
+   .about__content {
+      max-width: 77%;
+   }
+   .about__image {
+      width: 80%;
+   }
+   .card {
+      width: 315px;
+   }
+   .card__image {
+      height: 315px;
+   }
+   .img-switch__image {
+      height: 280px;
+   }
+   .card__header {
+      margin-bottom: 10px;
+   }
+   .card__title {
+      font-size: 16px;
+   }
+   .card__price {
+      font-size: 14px;
+   }
+   .card__info-descr {
+      margin: 15px 0 20px;
+   }
+   .booking__descr {
+      max-width: 360px;
+   }
+   .booking__application {
+      margin-top: -100px;
+   }
+   .form {
+      justify-content: center;
+   }
+   .question__items {
+      padding: 10px 0;
+   }
+   .question__item-control {
+      padding: 20px 40px;
+   }
+   .question__item-title {
+      font-size: 18px;
+   }
+   .question__item--open .question__item-text {
+      padding-bottom: 20px;
+   }
+   .gallery {
+      padding: 25px 0 40px;
+   }
+   .gallery__item {
+      min-height: 220px;
+   }
+   .full__img-item {
+      width: 60vh;
+      height: 500px;
+   }
+   .contacts__wrapper {
+      position: unset;
+      height: 280px;
+      margin: 0;
+      padding: 20px 0;
+   }
+   .map {
+      height: 220px;
+   }
+   .cabin-modal__content {
+      width: 450px;
+      padding: 35px;
+   }
+   .modal__info {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+   }
+   .modal__description {
+      display: none;
+   }
+}
+
+@media (max-width: 692px) {
+   .card {
+      width: 285px;
+      margin-top: 50px;
+   }
+   .card__image {
+      height: 275px;
+   }
+   .img-switch__image {
+      height: 240px;
+   }
+}
+
+@media (min-width: 577px) and (max-width: 636px) {
+   .card {
+      width: 260px;
+   }
+   .card__image {
+      height: 245px;
+   }
+   .img-switch__image {
+      height: 210px;
+   }
+   .img-pagination__item {
+      display: block;
+      width: 3px;
+      height: 3px;
+      margin: 0 2px;
+      background-color: #c4c4c4;
+   }
+}
+
+@media (max-width: 576px) {
+   .menu__list-item {
+      font-size: 18px;
+   }
+   .hero__title {
+      margin-bottom: 30px;
+      font-size: 48px;
+   }
+   .about {
+      padding: 40px 0;
+   }
+   .info {
+      background-image: url('../images/info-bg-mob.webp');
+      background-attachment: unset;
+   }
+   .info__list {
+      gap: 55px;
+   }
+   .info__item-header {
+      margin-bottom: 25px;
+   }
+   .info__item-title {
+      font-size: 20px;
+   }  
+   .info__item-descr {
+      max-width: 340px;
+   }
+   .cabins__content {
+      justify-content: center;
+   }
+   .card {
+      width: 350px;
+      margin-top: 40px;
+   }
+   .card__image {
+      height: 330px;
+   }
+   .img-switch__image {
+      height: 290px;
+   }
+   .form {
+      flex-direction: column;
+      align-items: center;
+   }
+   .form__label {
+      margin-bottom: 8px;
+   }
+   .form__group:not(:last-of-type) {
+      margin-right: 0;
+   }
+   .date__field, .stepper__field, .form__btn {
+      width: 220px;
+   }
+   .stepper__field {
+      padding-right: 96px;
+   }
+   .question__item-control {
+      padding: 20px 25px;
+   }
+   .question__item-title {
+      font-size: 16px;
+   }
+   .question__item-text {
+      padding: 0 25px;
+   }
+   .question__item--open .question__item-text {
+      padding: 10px 25px 15px;
+      font-size: 14px;
+   }
+   .question__item--open .question__item-control {
+      align-items: flex-start;
+   }
+   .gallery__wrapper {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+   }
+   .gallery__item {
+      min-height: 320px;
+   }
+   .gallery__item:nth-child(1), 
+   .gallery__item:nth-child(6), 
+   .gallery__item:nth-child(10)  {
+      grid-row: span 1;
+   }
+   .full__img-item {
+      width: 45vh;
+      height: 375px;
+   }
+   .footer {
+      padding: 20px 10px;
+      font-size: 14px;
+   }
+   .copyright__text {
+      margin-bottom: 3px;
+   }
+   .book-modal__content, .order-modal__content {
+      width: 340px;
+      padding: 30px;
+   }
+   .modal__form {
+      width: 280px;
+   }
+}
